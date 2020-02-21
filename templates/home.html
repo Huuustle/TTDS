@@ -1,0 +1,31 @@
+{% load static %}<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TTDS Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'css/home_new.css' %}">
+</head>
+
+<body>
+
+  <div class="container">
+	  <div class="logo"><img src="{% static 'img/logo_home.png' %}" alt="logo" style="width: 350px;height:350px;"></div>
+	  
+      <form class="input-group" action="/search" method="get">
+        <input class="form-control border rounded-pill-left border-right-0" type="search" id="oq" name="oq">
+        <span class="input-group-append">
+          <button class="btn btn-outline-secondary border rounded-pill-right border-left-0" type="submit">
+              <i class="fa fa-search"></i>
+          </button>
+        </span>
+      </form>
+	  
+	  <div class="footer">Edit by TTDS Group 21 &bull; Edinburgh, United Kingdom</div>
+ </div>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* CSS Document */
+* { 
+ margin: 0; 
+ padding: 0; 
+}
+
+body {
+  background-image:url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-attachment: scroll;
+}
+
+.logo {
+  margin-top:4em;
+  margin-bottom:-2em;
+  text-align: center;
+}
+
+.input-group {
+  width: 450px;
+  margin: auto;
+}
+
+.container input {
+  padding-left: 20px;
+  border: 1px #4F4E4E;
+  height: 45px;
+  background-color: #E5E5E5;
+  outline: none;
+  position: relative;
+  font-size: 18px;
+}
+
+.container input:focus {
+  background-color: #FFF;
+}
+.container button {
+  background: #E5E5E5;
+}
+
+.container button:before{
+  color: #FFF;
+}
+
+.rounded-pill-left {
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+}
+.rounded-pill-right {
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+}
+
+
+.rounded-t-l-0 {
+  border-top-left-radius: 0 !important;
+}
+.rounded-t-r-0 {
+  border-top-right-radius: 0 !important;
+}
+.rounded-b-l-0 {
+  border-bottom-left-radius: 0 !important;
+}
+.rounded-b-r-0 {
+  border-bottom-right-radius: 0 !important;
+}
+.rounded-x-l-0 {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.rounded-x-r-0 {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.footer {
+  margin-top: 10em;
+  text-align: center;
+  font-size:14px;
+  font-style: normal;
+  color:#ECECEC;
+}

@@ -1,0 +1,96 @@
+/* CSS Document */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.logo {
+	text-align: center;
+}
+.nav.nav-pills {
+	height: 60px;
+	border-bottom: 1px solid #707070;
+}
+
+.nav.nav-pills li {
+	height: 60px;
+}
+
+.nav.nav-pills li a {
+	height: 60px;
+    color: #6F6F6F;
+    padding-top: 14px;
+    text-decoration: none;
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+ 
+.nav.nav-pills li a.active {
+    background-color:#C0C0C0;
+    color: black;
+}
+
+.nav-search {
+	margin-top: .3em;
+	margin-left: 8%;
+	position: relative;
+}
+
+.container div {
+	margin-left: 7em;
+	margin-right: 7em;
+}
+
+.container h2 {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+.container h6 {	
+	width: 100%;
+	border-bottom: 1px solid #C5C5C5;
+	text-align: left;
+    color: #6F6F6F;
+	font-size: 18px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.container h5 {	
+	margin-top: 3em;
+	width: 100%;
+	border-top: 1px solid #C5C5C5;
+	text-align: left;
+    color: #6F6F6F;
+	font-size: 18px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.artical p {
+	margin-top: 2em;
+	width: 100%;
+}
+
+.recommand h3 {
+	margin-top: 3em;
+	position: relative;
+	height: 60px;
+	padding-top: 10px;
+	color: #4F4E4E;
+	background-color: #C7E1F0;
+}
+
+.recommand ul {
+	margin-bottom:5em;
+}
+
+.footer { 
+  height: 50px;
+  text-align: center;  
+  font-size:14px;
+  font-style: normal;
+  color:#6F6F6F;
+}
